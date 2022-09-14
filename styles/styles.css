@@ -1,0 +1,274 @@
+*{
+    padding: 0;
+    margin: 0;  
+    box-sizing: border-box;
+}
+
+.head{
+    background:linear-gradient(to top, rgba(0,0,0,.4), rgba(0,0,0,.3)) , url(/images/background-image.jpg) center no-repeat;
+    background-size: cover;
+    height: 100vh;
+    border: .3rem solid blue; 
+    
+}
+
+.navbar{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    color: white;
+    margin-top: 1rem;
+}
+.navbar, .nav-item {
+    list-style: none;
+}
+
+.nav-list{
+    display: flex;
+    margin-left: 16rem;
+    
+}
+.nav-item{
+    margin-right: 3rem;
+}
+
+.filtro{
+    margin-left: 2rem;
+
+
+}
+.sign-up-btn{
+    border-radius: .5rem;
+    width: 7rem;
+    height: 2rem;
+    background-color: #CC3636;
+    color: white;
+    margin-left: 10rem;
+    outline: none;
+
+}
+
+.getapp-btn {
+    border-radius: .5rem;
+    width: 7rem;
+    height: 2rem;
+    background-color: #CC3636;
+    color: white;
+    margin-right: 2rem;
+    outline: none;
+    
+}
+
+.middle {
+    text-align: center;
+    margin-top: 20rem;
+    color: white;
+}
+
+.power-up {
+    font-size: 3rem;
+    font-weight: bolder;
+}
+
+.day {
+    font-weight: lighter;
+    font-size: 1rem;
+}
+
+.explore-btn{
+    outline: none;
+    border-radius: .5rem;
+    width: 9rem;
+    height: 2rem;
+    background-color: #CC3636;
+    color: white;
+    margin-top: 3rem;
+}
+
+/* .explore-wrld {
+    display: flex; 
+    margin-top: 1rem;
+    align-items: center; 
+}*/
+
+.explore-wrld-coffe {
+    width: 100%;
+    text-align: center; 
+    margin: 4rem 0 2rem; 
+    line-height: .2rem;
+    border-bottom: .3rem solid burlywood;
+}
+.expolore-wrl-coffe, span {
+    background-color:burlywood ;
+    padding: 0 10px;
+}
+
+
+ .logo-card {
+    display: flex;
+    margin-top: 5rem;
+    margin-left: 3rem ;
+} 
+
+.logo-img {
+    margin-right: 2rem;
+}
+
+.brands-we-work {
+    width: 100%;
+    text-align: center; 
+    margin: 4rem 0 2rem; 
+    line-height: .2rem;
+    border-bottom: .3rem solid burlywood;
+}
+
+.brands-we-work, span {
+    background-color:burlywood ;
+    padding: 0 10px;
+}
+
+ .coffe-card {
+    width: 50rem;
+    margin: .3rem .3rem;
+    height: 90vh;
+    background-color:  burlywood;
+    border-radius: 1rem;
+    
+} 
+
+
+.coffe-card-wrapper {
+    display: flex;
+    flex: 25%; 
+    max-width: 25%;   
+
+}
+
+.coffe-card-content{
+    color: white;
+}
+
+.coffe-card-heading{
+    font-size: 2rem;
+    margin-left: .9rem ;
+}
+
+.coffe-card-paragraph{
+    margin: 1rem .5rem;
+    letter-spacing: .4px;
+}
+.coffe-price{
+    font-size: 2.3rem;
+    font-weight: bold;
+    
+
+}
+
+.price-btn{
+    display: flex;
+    align-items: center;
+    margin: 2rem 0.8rem;
+}
+
+.coffe-img {
+     width: 320px; 
+     height: 280px;  
+     border-radius: .8rem;
+     margin: .4rem .4rem;
+
+}
+
+.coffe-card-btn {
+    width: 9rem;
+    height: 3rem;
+    margin-left: 6rem;
+    padding: 1rem 1rem ;
+    font-size: 1.2rem;
+    text-transform: capitalize;
+    color: white;
+    background-color: #E94560;
+    border: .1rem solid #E94560;
+    outline: none;
+    cursor: pointer;
+    border-radius: .3rem;
+}
+
+.get-in-touch {
+    color: white;
+    width: 100%;
+    text-align: center; 
+    margin: 4rem 0 2rem; 
+    line-height: .2rem;
+    border-bottom: .3rem solid burlywood;
+}
+
+.get-in-touch, span {
+    background-color:burlywood ;
+    padding: 0 10px;
+}
+
+ .footer {
+    background-color: burlywood;
+    height: 70vh;
+
+}
+
+ .footer-filtro{ 
+    display: flex;
+    margin-top: 4rem;
+    color: white;
+    font-size: 1.5rem;
+    font-weight: 400;
+    margin-left: 3rem; 
+    
+}
+
+.about-us-list, li {
+    list-style: none;
+    margin: 0 3rem; 
+    
+}
+.about-us-list, .franchise-list, .merchandise-list{
+    margin: 3rem  3rem;
+}
+.head-item {
+    font-weight: bolder;
+    text-transform: capitalize;
+    margin-bottom: 0.3rem;
+}
+
+.follow-us {
+    margin-left: .3rem;
+    margin-top: 3rem;
+    margin-bottom: 3rem;
+    font-weight: bolder;
+    text-transform: capitalize;
+}
+
+
+.social-icons-list{
+    display: flex;
+    align-items: center;
+    
+    
+}
+.icon-item, i {
+    margin: 0  0;
+    
+    
+}
+
+.footer-underline{
+    width:90%;
+    height: 0.2rem;
+    margin-top: 6rem;
+    background-color: aliceblue;
+    margin-left: .3rem;
+}
+
+.copyright{
+    margin-top: .3rem;
+    text-align: center;
+    color: white;
+    font-size: 1.2rem;
+}  
