@@ -229,10 +229,10 @@ span{
 }
 
 .coffe-img {
-     width: 320px; 
-     height: 280px;  
-     border-radius: .8rem;
-     margin: .4rem .4rem;
+    width: 320px; 
+    height: 280px;  
+    border-radius: .8rem;
+    margin: .4rem .4rem;
 
 }
 
@@ -266,7 +266,7 @@ span{
 .get-in-touch:before {
     content: "";
     display: block;
-    width: 50rem;
+   max-width: 50rem;
     height: 2px;
     background: #CC3636;
     position: absolute;
@@ -284,7 +284,7 @@ span{
 .get-in-touch:after {
     content: "";
     display: block;
-    width: 50rem;
+    max-width: 50rem;
     height: 3px;
     background: #CC3636;
     position: absolute;
@@ -368,7 +368,7 @@ span{
 
 /* making it responsive */
 
-@media (max-width:1000px) {
+@media (max-width: 1000px) {
 
     .navbar{
         display: flex;
@@ -398,7 +398,6 @@ span{
     }
 
     .head{
-        background:linear-gradient(to top, rgba(0,0,0,.4), rgba(0,0,0,.3)) , url(/images/background-image.jpg) center no-repeat;
         background-size: cover;
         height: 80vh;
         border: .1rem solid blue; 
@@ -440,22 +439,20 @@ span{
         margin-top: .5rem;
     }
 
-    .coffe-card {
-        width: 40rem;
-        margin: .3rem .3rem;
-        height: 90vh;
-        background-color:  burlywood;
-        border-radius: 1rem;
-        
-    } 
-
-    .coffe-card-content{
-        color: white;
+   
+    .coffe-card-wrapper{
         display: flex;
-        justify-content: left;
-        align-items: flex-start;
+        flex-direction: column;
+        flex: 50%;
+        max-width: 50%;
         
     }
+
+    .coffe-img{
+        max-width: 320px;
+        max-height: 90%;
+        margin: .1rem .2rem ;
+    } 
     
     .coffe-card-heading{
         font-size: 1rem;
@@ -478,17 +475,13 @@ span{
         margin: 1rem 0.3rem;
     }
     
-    .coffe-card-wrapper{
-        display: flex;
-        flex-direction: column;
-        
-    }
+    
 
-    .coffe-img{
+    /* .coffe-img{
         width: 320px;
         height: 90%;
         margin: .1rem .2rem ;
-    }
+    } */
 
     .footer {
         margin-top: .5rem;
@@ -593,7 +586,6 @@ span{
     }
 
     .head{
-        background:linear-gradient(to top, rgba(0,0,0,.4), rgba(0,0,0,.3)) , url(/images/background-image.jpg) center no-repeat;
         background-size: cover;
         height: 80vh;
         border: .1rem solid blue; 
@@ -641,24 +633,18 @@ span{
         height: 90vh;
         background-color:  burlywood;
         border-radius: 1rem;
-        
+         
     } 
 
-    .coffe-card-content{
-        color: white;
-        display: flex;
-        justify-content: left;
-        align-items: flex-start;
-        
-    }
+    
     
     .coffe-card-heading{
-        font-size: 1rem;
-        margin-left: .3rem ;
+        font-size: 4rem;
+        margin-left: .4rem ;
     }
     
     .coffe-card-paragraph{
-        margin: 1rem .2rem;
+        margin: 2rem .2rem;
         letter-spacing: .4px;
     }
     .coffe-price{
@@ -676,14 +662,67 @@ span{
     .coffe-card-wrapper{
         display: flex;
         flex-direction: column;
+        flex: 50%;
+        max-width: 50%;
         
     }
 
     .coffe-img{
-        width: 320px;
-        height: 90%;
+        max-width: 320px;
+        max-height: 90%;
         margin: .1rem .2rem ;
+    } 
+
+    .brands-we-work:before {
+        content: "";
+        display: block;
+        max-width: 90rem;
+        max-height: 2px;
+        background: burlywood;
+        position: absolute;
+        left: 0;
+        top: 50%;
+        z-index: -2;
+    
     }
+    
+    .brands-we-work:after {
+        content: "";
+        display: block;
+        width: 95rem;
+        height: 3px;
+        background: burlywood;
+        position: absolute;
+        right: 0;
+        top: 50%;
+        z-index: -2;
+    }
+    
+
+    
+.explore-wrld-coffe:before {
+    content: "";
+    display: block;
+   max-width:  90rem;
+    max-height: 2px;
+    background: burlywood;
+    position: absolute;
+    left: 0;
+    top: 50%;
+    z-index: -2;
+
+}
+
+.explore-wrld-coffe:after {
+    content: "";
+    display: block;
+    max-width: 95rem;
+   max-height: 3px;
+    background: burlywood;
+    position: absolute;
+    right: 0;
+    top: 50%;
+    z-index: -2;
 
     .footer {
         margin-top: .5rem;
