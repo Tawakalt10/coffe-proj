@@ -633,7 +633,7 @@ span{
 
    
     .coffe-card {
-        width: 26rem;
+        width: 23rem;
         margin: .4rem .4rem;
         height: 90vh;
         margin-left: 1rem;
@@ -747,7 +747,7 @@ span{
     right: 0;
     top: 50%;
     z-index: -2;
-
+}
     .footer {
         margin-top: .5rem;
         background-color: burlywood;
