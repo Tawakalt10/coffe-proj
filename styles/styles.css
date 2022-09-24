@@ -412,7 +412,6 @@ span{
 
     .power-up {
         font-size: 2rem;
-        font-weight: bolder;
     }
 
     .sign-up-btn{
@@ -575,13 +574,13 @@ span{
     }
    
     .filtro{
-        margin-right: 40rem;
+        margin-right: 25rem;
         font-size: 1rem;
     }
 
     .nav-list{
         display: flex;
-        margin-left: 5rem;
+        margin-left: 4rem;
     
     }
 
@@ -607,8 +606,10 @@ span{
         border-radius: .5rem;
         width: 7rem;
         height: 2rem;
-        margin-left: 7.5rem;
+        margin-left: 4rem;
         margin-top: .5rem;
+        border: none;
+        outline: none;
     
     }
 
@@ -619,7 +620,9 @@ span{
         background-color: #CC3636;
         color: white;
         margin-top: .5rem;
-        margin-left: 9rem;
+        margin-left: 6rem;
+        border: none;
+        outline: none;
         
     }
 
@@ -627,16 +630,12 @@ span{
         margin-top: .5rem;
     }
 
+   
     .coffe-card {
-        width: 40rem;
-        margin: .3rem .3rem;
+        width: 26rem;
+        margin: .4rem .4rem;
         height: 90vh;
-        background-color:  burlywood;
-        border-radius: 1rem;
-         
-    } 
-
-    
+    }
     
     .coffe-card-heading{
         font-size: 4rem;
@@ -646,6 +645,7 @@ span{
     .coffe-card-paragraph{
         margin: 2rem .2rem;
         letter-spacing: .4px;
+        
     }
     .coffe-price{
         font-size: 2rem;
@@ -664,6 +664,7 @@ span{
         flex-direction: column;
         flex: 50%;
         max-width: 50%;
+
         
     }
 
@@ -672,6 +673,17 @@ span{
         max-height: 90%;
         margin: .1rem .2rem ;
     } 
+
+    .brands-we-work {
+        color: burlywood;
+        max-width: 100%;
+        text-align: center; 
+        margin: 100px auto; 
+        font-size: 2rem;
+        max-width: 600px;
+        position: relative;
+    }
+        
 
     .brands-we-work:before {
         content: "";
@@ -698,6 +710,15 @@ span{
         z-index: -2;
     }
     
+    .explore-wrld-coffe {
+        color: burlywood;
+        width: 100%;
+        text-align: center; 
+        margin: 100px auto; 
+        font-size: 2rem;
+        max-width: 600px;
+        position: relative;
+    }
 
     
 .explore-wrld-coffe:before {
