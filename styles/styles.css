@@ -635,15 +635,16 @@ span{
         width: 26rem;
         margin: .4rem .4rem;
         height: 90vh;
+        margin-left: 1rem;
     }
     
     .coffe-card-heading{
         font-size: 4rem;
-        margin-left: .4rem ;
+        margin-left: 1rem ;
     }
     
     .coffe-card-paragraph{
-        margin: 2rem .2rem;
+        margin: 2rem 1rem;
         letter-spacing: .4px;
         
     }
@@ -664,6 +665,7 @@ span{
         flex-direction: column;
         flex: 50%;
         max-width: 50%;
+        
 
         
     }
@@ -671,7 +673,7 @@ span{
     .coffe-img{
         max-width: 320px;
         max-height: 90%;
-        margin: .1rem .2rem ;
+        margin: 1rem 1rem ;
     } 
 
     .brands-we-work {
