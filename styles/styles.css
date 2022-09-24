@@ -78,6 +78,7 @@
 }
 
 .explore-btn{
+    border: none;
     outline: none;
     border-radius: .5rem;
     width: 9rem;
