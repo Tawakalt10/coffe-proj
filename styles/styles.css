@@ -45,6 +45,7 @@
     color: white;
     margin-left: 10rem;
     outline: none;
+    border: none;
 
 }
 
@@ -56,6 +57,7 @@
     color: white;
     margin-right: 2rem;
     outline: none;
+    border: none;
     
 }
 
@@ -361,3 +363,395 @@ span{
     color: white;
     font-size: 1.2rem;
 }  
+
+
+
+/* making it responsive */
+
+@media (max-width:1400px) {
+
+    .navbar{
+        display: flex;
+        align-items: center;
+        color: white;
+        justify-content: space-between;
+        flex-direction: column;
+        
+    }
+    
+    .nav-list{
+        display: flex;
+        flex-direction: column;
+        margin-left: 1rem;
+        
+    }
+   
+    .filtro{
+        margin-right: 40rem;
+        font-size: 1rem;
+    }
+
+    .nav-list{
+        display: flex;
+        margin-left: 5rem;
+    
+    }
+
+    .head{
+        background:linear-gradient(to top, rgba(0,0,0,.4), rgba(0,0,0,.3)) , url(/images/background-image.jpg) center no-repeat;
+        background-size: cover;
+        height: 80vh;
+        border: .1rem solid blue; 
+        
+    }
+
+    .middle {
+        text-align: center;
+        margin-top: 5rem;
+        color: white;
+    }
+
+    .power-up {
+        font-size: 2rem;
+        font-weight: bolder;
+    }
+
+    .sign-up-btn{
+        border-radius: .5rem;
+        width: 7rem;
+        height: 2rem;
+        margin-left: 7.5rem;
+        margin-top: .5rem;
+    
+    }
+
+    .getapp-btn {
+        border-radius: .5rem;
+        width: 7rem;
+        height: 2rem;
+        background-color: #CC3636;
+        color: white;
+        margin-top: .5rem;
+        margin-left: 9rem;
+        
+    }
+
+    .nav-item{
+        margin-top: .5rem;
+    }
+
+    .coffe-card {
+        width: 40rem;
+        margin: .3rem .3rem;
+        height: 90vh;
+        background-color:  burlywood;
+        border-radius: 1rem;
+        
+    } 
+
+    .coffe-card-content{
+        color: white;
+        display: flex;
+        justify-content: left;
+        align-items: flex-start;
+        
+    }
+    
+    .coffe-card-heading{
+        font-size: 1rem;
+        margin-left: .3rem ;
+    }
+    
+    .coffe-card-paragraph{
+        margin: 1rem .2rem;
+        letter-spacing: .4px;
+    }
+    .coffe-price{
+        font-size: 2rem;
+        font-weight: bold;     
+    
+    }
+    
+    .price-btn{
+        display: flex;
+        align-items: center;
+        margin: 1rem 0.3rem;
+    }
+    
+    .coffe-card-wrapper{
+        display: flex;
+        flex-direction: column;
+        
+    }
+
+    .coffe-img{
+        width: 320px;
+        height: 90%;
+        margin: .1rem .2rem ;
+    }
+
+    .footer {
+        margin-top: .5rem;
+        background-color: burlywood;
+        height: 90vh;
+    
+    }
+    
+     .footer-filtro{ 
+        display: flex;
+        flex-direction: column;
+        margin-top: 1rem;
+        color: white;
+        font-size: 1.5rem;
+        font-weight: 400;
+        margin-left: 2rem; 
+        
+    }
+
+    .about-us-list, li {
+        list-style: none;
+        margin: .3rem .4rem; 
+        
+    }
+    .about-us-list, .franchise-list, .merchandise-list{
+        margin: .4rem  .4rem;
+    }
+    .head-item {
+        font-weight: bolder;
+        text-transform: capitalize;
+        margin-bottom: 0.3rem;
+    }
+    
+    .follow-us {
+        margin-left: .3rem;
+        margin-top: .2rem;
+        margin-bottom: .2rem;
+     
+    }
+
+
+    .footer-underline{
+        width:100%;
+        height: 0.2rem;
+        margin-top: 2rem;
+        background-color: aliceblue;
+        margin-left: .3rem;
+    }
+
+    .get-in-touch {
+        color: white;
+        width: 100%;
+        text-align: center; 
+        font-size: 2rem;
+        max-width: 600px; 
+        position: relative; 
+        margin: 0 4rem ;
+      
+    }
+
+    
+ .logo-card {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    align-content: center;
+    margin-top: 2rem;
+    
+ }
+}
+
+
+
+@media (max-width: 700px) {
+
+    .navbar{
+        display: flex;
+        align-items: center;
+        color: white;
+        justify-content: space-between;
+        flex-direction: column;
+        
+    }
+    
+    .nav-list{
+        display: flex;
+        flex-direction: column;
+        margin-left: 1rem;
+        
+    }
+   
+    .filtro{
+        margin-right: 40rem;
+        font-size: 1rem;
+    }
+
+    .nav-list{
+        display: flex;
+        margin-left: 5rem;
+    
+    }
+
+    .head{
+        background:linear-gradient(to top, rgba(0,0,0,.4), rgba(0,0,0,.3)) , url(/images/background-image.jpg) center no-repeat;
+        background-size: cover;
+        height: 80vh;
+        border: .1rem solid blue; 
+        
+    }
+
+    .middle {
+        text-align: center;
+        margin-top: 5rem;
+        color: white;
+    }
+
+    .power-up {
+        font-size: 2rem;
+        font-weight: bolder;
+    }
+
+    .sign-up-btn{
+        border-radius: .5rem;
+        width: 7rem;
+        height: 2rem;
+        margin-left: 7.5rem;
+        margin-top: .5rem;
+    
+    }
+
+    .getapp-btn {
+        border-radius: .5rem;
+        width: 7rem;
+        height: 2rem;
+        background-color: #CC3636;
+        color: white;
+        margin-top: .5rem;
+        margin-left: 9rem;
+        
+    }
+
+    .nav-item{
+        margin-top: .5rem;
+    }
+
+    .coffe-card {
+        width: 40rem;
+        margin: .3rem .3rem;
+        height: 90vh;
+        background-color:  burlywood;
+        border-radius: 1rem;
+        
+    } 
+
+    .coffe-card-content{
+        color: white;
+        display: flex;
+        justify-content: left;
+        align-items: flex-start;
+        
+    }
+    
+    .coffe-card-heading{
+        font-size: 1rem;
+        margin-left: .3rem ;
+    }
+    
+    .coffe-card-paragraph{
+        margin: 1rem .2rem;
+        letter-spacing: .4px;
+    }
+    .coffe-price{
+        font-size: 2rem;
+        font-weight: bold;     
+    
+    }
+    
+    .price-btn{
+        display: flex;
+        align-items: center;
+        margin: 1rem 0.3rem;
+    }
+    
+    .coffe-card-wrapper{
+        display: flex;
+        flex-direction: column;
+        
+    }
+
+    .coffe-img{
+        width: 320px;
+        height: 90%;
+        margin: .1rem .2rem ;
+    }
+
+    .footer {
+        margin-top: .5rem;
+        background-color: burlywood;
+        height: 90vh;
+    
+    }
+    
+     .footer-filtro{ 
+        display: flex;
+        flex-direction: column;
+        margin-top: 1rem;
+        color: white;
+        font-size: 1.5rem;
+        font-weight: 400;
+        margin-left: 2rem; 
+        
+    }
+
+    .about-us-list, li {
+        list-style: none;
+        margin: .3rem .4rem; 
+        
+    }
+    .about-us-list, .franchise-list, .merchandise-list{
+        margin: .4rem  .4rem;
+    }
+    .head-item {
+        font-weight: bolder;
+        text-transform: capitalize;
+        margin-bottom: 0.3rem;
+    }
+    
+    .follow-us {
+        margin-left: .3rem;
+        margin-top: .2rem;
+        margin-bottom: .2rem;
+     
+    }
+
+
+    .footer-underline{
+        width:100%;
+        height: 0.2rem;
+        margin-top: 2rem;
+        background-color: aliceblue;
+        margin-left: .3rem;
+    }
+
+    .get-in-touch {
+        color: white;
+        width: 100%;
+        text-align: center; 
+        font-size: 2rem;
+        max-width: 600px; 
+        position: relative; 
+        margin: 0 4rem ;
+      
+    }
+
+    
+ .logo-card {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    align-content: center;
+    margin-top: 2rem;
+    
+ }
+}
